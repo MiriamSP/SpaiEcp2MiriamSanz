@@ -37,6 +37,11 @@ public class PointTest {
     }
 
     @Test
+    public void testSum() {
+        assertEquals(5, pt.sum());
+    }
+
+    @Test
     public void testTranslate() {
         this.pt.translateOrigin(new Point(1, 1));
         assertEquals(1, pt.getX());

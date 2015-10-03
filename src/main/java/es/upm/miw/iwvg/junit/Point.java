@@ -30,6 +30,11 @@ public class Point {
         this.y -= origin.getY();
     }
     
+    public int sum() {
+    	return this.x+this.y;
+    }
+    
+    
     public int getX() {
         return this.x;
     }

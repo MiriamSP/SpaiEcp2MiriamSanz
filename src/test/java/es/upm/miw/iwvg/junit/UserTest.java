@@ -32,6 +32,11 @@ public class UserTest {
     public void testGetFamilyName() {
         assertEquals("Carroll", u.getFamilyName());
     }
+	
+	@Test
+    public void testNameGenFormat() {
+        assertEquals("Mr./Mrs. Carroll", u.nameGenFormat());
+    }
 
 	@Test
     public void testGetNumber() {

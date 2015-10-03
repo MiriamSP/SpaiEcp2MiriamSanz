@@ -27,5 +27,12 @@ public class FractionTest {
     public void testGetDenominator() {
         assertEquals(2, f.getDenominator());
     }
+	
+	@Test
+    public void testDivide() {
+		Fraction f2 = new Fraction (2,3);
+        assertEquals(12, f.divide(f2).getNumerator());
+        assertEquals(4, f.divide(f2).getDenominator());
+    }
 
 }

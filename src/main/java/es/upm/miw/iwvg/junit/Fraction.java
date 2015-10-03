@@ -53,6 +53,10 @@ public class Fraction {
         return (double) numerator / denominator;
     }
     
+    public Fraction divide(Fraction fraction){
+    	return new Fraction(this.numerator*fraction.denominator,this.denominator*fraction.numerator);
+    }
+    
     public int getNumerator() {
         return numerator;
     }

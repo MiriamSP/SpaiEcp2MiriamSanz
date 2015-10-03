@@ -22,6 +22,10 @@ public class User {
     public String fullName() {
         return this.name + " " + this.familyName;
     }
+    
+    public String nameGenFormat() {
+        return "Mr./Mrs. "+ this.familyName;
+    }
 
     public String initials() {
         return this.name.substring(0, 1) + ".";

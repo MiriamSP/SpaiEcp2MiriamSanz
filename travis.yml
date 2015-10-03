@@ -1,0 +1,19 @@
+language: java
+ 
+jdk: 
+- oraclejdk8
+    
+branches: 
+  only: 
+    - master
+ 
+    - develop
+ 
+      
+ notifications: 
+   email: 
+     recipients: 
+      - miriamsp_9@hotmail.com
+ 
+        
+script: mvn verify

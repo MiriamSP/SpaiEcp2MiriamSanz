@@ -42,5 +42,10 @@ public class UserTest {
     public void testGetNumber() {
         assertEquals(23, u.getNumber());
     }
+	
+	@Test 
+	public void testNameFormatEN(){
+		assertEquals("Carroll, Lewis", u.nameFormatEN());
+	}
 
 }

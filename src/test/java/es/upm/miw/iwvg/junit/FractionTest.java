@@ -34,5 +34,11 @@ public class FractionTest {
         assertEquals(12, f.divide(f2).getNumerator());
         assertEquals(4, f.divide(f2).getDenominator());
     }
+	
+	@Test
+	public void testIsLower() {
+		Fraction f2 = new Fraction (2,3);
+		assertEquals(true, f.isLower(f2));
+	}
 
 }

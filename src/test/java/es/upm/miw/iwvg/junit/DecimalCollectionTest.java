@@ -30,5 +30,11 @@ public class DecimalCollectionTest {
     	dc.add(0);
         assertEquals(1, dc.higher(), 10e-5);
     }
+    
+    @Test
+    public void testLower() {
+    	dc.add(2);
+    	assertEquals(1, dc.lower(), 10e-5);
+    }
 
 }

@@ -30,7 +30,7 @@ public class Point {
         this.y -= origin.getY();
     }
     
-    public int sum() {
+    public int sumCoord() {
     	return this.x+this.y;
     }
     

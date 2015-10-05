@@ -38,7 +38,7 @@ public class PointTest {
 
     @Test
     public void testSum() {
-        assertEquals(5, pt.sum());
+        assertEquals(5, pt.sumCoord());
     }
 
     @Test

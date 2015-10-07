@@ -37,6 +37,7 @@ public class DecimalCollection {
         return higher;
     }
     
+
     public double lower(){
     	double lower = Double.POSITIVE_INFINITY;
     	for (double item : this.collection){
@@ -44,7 +45,11 @@ public class DecimalCollection {
     			lower = item;
     		}
     	}
-    	return lower;
+    	return lower;}
+
+    public boolean isElementlN(double num){
+    	return this.collection.contains(num);
+
     }
 
 }

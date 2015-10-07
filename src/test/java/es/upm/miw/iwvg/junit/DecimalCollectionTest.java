@@ -1,6 +1,7 @@
 package es.upm.miw.iwvg.junit;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -34,7 +35,12 @@ public class DecimalCollectionTest {
     @Test
     public void testLower() {
     	dc.add(2);
-    	assertEquals(1, dc.lower(), 10e-5);
+    	assertEquals(1, dc.lower(), 10e-5);}
+    @Test
+    public void testIsElementlN() {
+    	dc.add(3);
+        assertTrue(dc.isElementlN(3));
+
     }
 
 }

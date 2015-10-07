@@ -35,6 +35,11 @@ public class PointTest {
     public void testFase() {
         assertEquals(0.9828, pt.phase(), 10e-5);
     }
+    
+    @Test
+    public void testMulCoord() {
+        assertEquals(6,pt.mulCoord());
+    }
 
     @Test
     public void testTranslate() {

@@ -36,5 +36,9 @@ public class DecimalCollection {
         }
         return higher;
     }
+    
+    public boolean isElementlN(double num){
+    	return this.collection.contains(num);
+    }
 
 }

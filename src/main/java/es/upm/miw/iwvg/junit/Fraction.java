@@ -69,4 +69,8 @@ public class Fraction {
     	return (this.numerator/this.denominator) > (otherFraction.numerator/otherFraction.denominator);
     }
     
+    public boolean isHigher(Fraction otherFraction){
+    	return this.decimal() < otherFraction.decimal();
+    }
+    
 }

@@ -40,5 +40,11 @@ public class FractionTest {
 		Fraction f2 = new Fraction (2,3);
 		assertEquals(true, f.isLower(f2));
 	}
+	
+	@Test
+	public void testIsHigher() {
+		Fraction f2 = new Fraction (2,3);
+		assertEquals(false, f.isHigher(f2));
+	}
 
 }

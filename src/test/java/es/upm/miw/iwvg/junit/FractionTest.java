@@ -36,11 +36,11 @@ public class FractionTest {
     }
 	
 	@Test
-	public void testIsLower() {
-		Fraction f2 = new Fraction (2,3);
-		assertEquals(true, f.isLower(f2));
-	}
-	
+    public void testIsLower() {
+        Fraction f2 = new Fraction (2,3);
+        assertEquals(true, f.isLower(f2));
+    }
+    
 	@Test
 	public void testIsHigher() {
 		Fraction f2 = new Fraction (2,3);

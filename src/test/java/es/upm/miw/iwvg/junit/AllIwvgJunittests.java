@@ -13,7 +13,7 @@ import org.junit.runners.Suite.SuiteClasses;
     PointTest.class, 
     DecimalCollectionTest.class,
     FractionTest.class,
-    //UserTest.class
+    UserTest.class
 })
 public class AllIwvgJunittests {
     
